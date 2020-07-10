@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+
+    "name": "BuddyHelper",
+    "description": "Extension to help PB_Buddies",
+    "version": "1.0",
+    "icons": {
+        "200": "logo.png"
+    },
+
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "contextMenus"
+    ]
+}
